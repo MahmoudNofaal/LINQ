@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Transactions;
 
-namespace LINQ._3_Where;
+namespace LINQ._3_CoreOfLINQ;
 
 public class Where
 {

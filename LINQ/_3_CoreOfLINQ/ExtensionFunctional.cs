@@ -1,5 +1,4 @@
-﻿
-namespace LINQ._3_Where;
+﻿namespace LINQ._3_CoreOfLINQ;
 
 public static class ExtensionFunctional
 {

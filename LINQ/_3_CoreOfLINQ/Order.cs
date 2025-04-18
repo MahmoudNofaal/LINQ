@@ -1,4 +1,4 @@
-﻿namespace LINQ._3_Where;
+﻿namespace LINQ._3_CoreOfLINQ;
 
 class Order
 {

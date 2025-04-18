@@ -1,6 +1,4 @@
-﻿using LINQ._3_Where;
-
-namespace LINQ;
+﻿namespace LINQ;
 
 internal class Program
 {
@@ -18,9 +16,15 @@ internal class Program
       //_2_FunctionalProgramming.FunctionalProgramming.Ex02();
       //_2_FunctionalProgramming.FunctionalProgramming.Ex03();
 
-      //_3_Where.Where.Ex01();
-      //_3_Where.Where.Ex02();
-      //_3_Where.Where.Ex03();
+      //_3_CoreOfLINQ.Where.Ex01();
+      //_3_CoreOfLINQ.Where.Ex02();
+      //_3_CoreOfLINQ.Where.Ex03();
+
+      //_4_ProjectionOperation.Select.Ex01();
+      //_4_ProjectionOperation.Select.Ex02();
+      //_4_ProjectionOperation.Select.Ex03();
+      //_4_ProjectionOperation.SelectMany.Ex01();
+      _4_ProjectionOperation.SelectMany.Ex02();
 
    }
 
