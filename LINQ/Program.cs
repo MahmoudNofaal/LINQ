@@ -1,4 +1,5 @@
-﻿
+﻿using LINQ._3_Where;
+
 namespace LINQ;
 
 internal class Program
@@ -15,8 +16,12 @@ internal class Program
 
       //_2_FunctionalProgramming.FunctionalProgramming.Ex01();
       //_2_FunctionalProgramming.FunctionalProgramming.Ex02();
-      _2_FunctionalProgramming.FunctionalProgramming.Ex03();
-      
+      //_2_FunctionalProgramming.FunctionalProgramming.Ex03();
+
+      //_3_Where.Where.Ex01();
+      //_3_Where.Where.Ex02();
+      //_3_Where.Where.Ex03();
+
    }
 
 }
