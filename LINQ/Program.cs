@@ -11,7 +11,11 @@ internal class Program
       //_1_PureVsImpureFunctions.PureVsImpureFunctions.Ex03();
       //_1_PureVsImpureFunctions.PureVsImpureFunctions.Ex04();
       //_1_PureVsImpureFunctions.PureVsImpureFunctions.Ex05();
-      _1_PureVsImpureFunctions.PureVsImpureFunctions.Ex06();
+      //_1_PureVsImpureFunctions.PureVsImpureFunctions.Ex06();
+
+      //_2_FunctionalProgramming.FunctionalProgramming.Ex01();
+      //_2_FunctionalProgramming.FunctionalProgramming.Ex02();
+      _2_FunctionalProgramming.FunctionalProgramming.Ex03();
       
    }
 
