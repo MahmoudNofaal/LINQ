@@ -24,7 +24,9 @@ internal class Program
       //_4_ProjectionOperation.Select.Ex02();
       //_4_ProjectionOperation.Select.Ex03();
       //_4_ProjectionOperation.SelectMany.Ex01();
-      _4_ProjectionOperation.SelectMany.Ex02();
+      //_4_ProjectionOperation.SelectMany.Ex02();
+      //_4_ProjectionOperation.Zip.Ex01();
+      //_4_ProjectionOperation.Zip.Ex02();
 
    }
 
