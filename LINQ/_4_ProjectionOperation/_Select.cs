@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._4_ProjectionOperation;
 
-public class Select
+public class _Select
 {
 
    public static void Ex01()

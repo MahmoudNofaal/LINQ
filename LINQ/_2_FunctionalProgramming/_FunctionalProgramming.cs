@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._2_FunctionalProgramming;
 
-public class FunctionalProgramming
+public class _FunctionalProgramming
 {
 
    public static void Ex01()

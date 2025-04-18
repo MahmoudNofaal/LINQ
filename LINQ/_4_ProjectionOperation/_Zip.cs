@@ -1,6 +1,6 @@
 ﻿namespace LINQ._4_ProjectionOperation;
 
-public class Zip
+public class _Zip
 {
 
    public static void Ex01()

@@ -1,6 +1,6 @@
 ﻿namespace LINQ._4_ProjectionOperation;
 
-public class SelectMany
+public class _SelectMany
 {
 
    public static void Ex01()

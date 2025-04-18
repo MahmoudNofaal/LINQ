@@ -10,7 +10,7 @@ using System.Transactions;
 
 namespace LINQ._3_CoreOfLINQ;
 
-public class Where
+public class _Where
 {
 
    public static void Ex01()

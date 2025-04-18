@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._1_PureVsImpureFunctions;
 
-public class PureVsImpureFunctions
+public class _PureVsImpureFunctions
 {
 
    public static void Ex01()
