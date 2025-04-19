@@ -2,7 +2,7 @@
 
 namespace LINQ._5_SortingData;
 
-public class Reverse
+public class _Reverse
 {
 
    public static void Ex01()

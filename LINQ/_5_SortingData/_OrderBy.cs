@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._5_SortingData;
 
-public class OrderBy
+public class _OrderBy
 {
 
    public static void Ex01()
