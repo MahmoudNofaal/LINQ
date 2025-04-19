@@ -28,6 +28,14 @@ internal class Program
       //_4_ProjectionOperation.Zip.Ex01();
       //_4_ProjectionOperation.Zip.Ex02();
 
+      //_5_SortingData.OrderBy.Ex01();
+      //_5_SortingData.OrderBy.Ex02();
+      //_5_SortingData.OrderBy.Ex03();
+      //_5_SortingData.OrderBy.Ex04();
+      //_5_SortingData.OrderBy.Ex05();
+      //_5_SortingData.Reverse.Ex01();
+      //_5_SortingData.Reverse.Ex02();
+
    }
 
 }
