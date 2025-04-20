@@ -87,6 +87,13 @@ internal class Program
       //_12_EqualityOperations._SequenceEqual.Ex03();
       //_12_EqualityOperations._SequenceEqual.Ex04();
 
+      //_13_Concatenation._Concat.Ex01();
+      //_13_Concatenation._Concat.Ex02();
+      //_13_Concatenation._Concat.Ex03();
+      //_13_Concatenation._Concat.Ex04();
+      //_13_Concatenation._Concat.Ex05();
+      //_13_Concatenation._Concat.Ex06();
+
    }  
 
 }
