@@ -45,6 +45,14 @@ internal class Program
       //_6_DataPartitioning._Chunck.Ex01();
       //_6_DataPartitioning._Pagination.Ex01();
 
+      //_7_Quantifiers._Any.Ex01();
+      //_7_Quantifiers._Any.Ex02();
+      //_7_Quantifiers._Any.Ex03();
+      //_7_Quantifiers._Any.Ex04();
+      //_7_Quantifiers._Any.Ex05();
+      //_7_Quantifiers._Any.Ex06();
+      _7_Quantifiers._Any.Ex07();
+
    }  
 
 }
