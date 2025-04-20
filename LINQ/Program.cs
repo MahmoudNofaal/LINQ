@@ -60,6 +60,13 @@ internal class Program
       //_8_GroupingData._GroupBy.Ex05();
       //_8_GroupingData._GroupBy.Ex06();
 
+      //_9_JoinOperations._Join.Ex01();
+      //_9_JoinOperations._Join.Ex02();
+      //_9_JoinOperations._Join.Ex03();
+      //_9_JoinOperations._Join.Ex04();
+      //_9_JoinOperations._Join.Ex05();
+      _9_JoinOperations._Join.Ex06();
+
    }  
 
 }
