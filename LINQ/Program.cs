@@ -82,6 +82,11 @@ internal class Program
       //_11_ElementOperations._ElementAt.Ex06();
       //_11_ElementOperations._ElementAt.Ex07();
 
+      //_12_EqualityOperations._SequenceEqual.Ex01();
+      //_12_EqualityOperations._SequenceEqual.Ex02();
+      //_12_EqualityOperations._SequenceEqual.Ex03();
+      //_12_EqualityOperations._SequenceEqual.Ex04();
+
    }  
 
 }
