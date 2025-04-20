@@ -18,11 +18,11 @@ public class _Any
          new Product { Name = "Tablet", Price = 600 }
       };
 
-      // All: Check if all products are priced above 500
+      // All: Check if all products its price above 500
       bool allExpensive = products.All(p => p.Price > 500);
       Console.WriteLine($"All products price > 500: {allExpensive}"); // True
 
-      // Any: Check if any product is priced below 700
+      // Any: Check if any product price below 700
       bool hasCheapProduct = products.Any(p => p.Price < 700);
       Console.WriteLine($"Any product price < 700: {hasCheapProduct}"); // True
 
@@ -51,20 +51,20 @@ public class _Any
 
       // Any: Check if any active orders exist
       bool hasActiveOrders = orders.Any(o => o.IsActive);
-      Console.WriteLine($"Has active orders: {hasActiveOrders}"); // True
+      Console.WriteLine($"Is there active orders: {hasActiveOrders}"); // True
 
       // All: Check if all active orders are shipped
       bool allActiveShipped = orders.Where(o => o.IsActive)
                                     .All(o => o.IsShipped);
 
-      Console.WriteLine($"All active orders shipped: {allActiveShipped}"); // False
+      Console.WriteLine($"Is all active orders are shipped: {allActiveShipped}"); // False
 
       // Using Query Syntax for filtering, then All
       bool allActiveShippedQuery = (from o in orders
                                     where o.IsActive
                                     select o).All(o => o.IsShipped);
 
-      Console.WriteLine($"All active orders shipped (Query Syntax): {allActiveShippedQuery}"); // False
+      Console.WriteLine($"Is all active orders are shipped (Query): {allActiveShippedQuery}"); // False
 
    }
 
@@ -73,24 +73,24 @@ public class _Any
 
       var employees = new List<Employee3>
       {
-         new Employee3 { Name = "Alice", Salary = 60000, IsActive = true },
-         new Employee3 { Name = "Bob", Salary = 45000, IsActive = true },
-         new Employee3 { Name = "Charlie", Salary = 70000, IsActive = false }
+         new Employee3 { Name = "Ahmed", Salary = 60000, IsActive = true },
+         new Employee3 { Name = "Marwa", Salary = 45000, IsActive = true },
+         new Employee3 { Name = "Omar", Salary = 70000, IsActive = false }
       };
 
       // All: Check if all active employees have salary > 40000
       bool allActiveWellPaid = employees.Where(e => e.IsActive)
                                         .All(e => e.Salary > 40000);
-      Console.WriteLine($"All active employees salary > 40000: {allActiveWellPaid}"); // True
+      Console.WriteLine($"Is all active employees salary > 40000: {allActiveWellPaid}"); // True
 
-      // Any: Check if any employee is named "Alice"
-      bool hasAlice = employees.Any(e => e.Name == "Alice");
-      Console.WriteLine($"Has employee named 'Alice': {hasAlice}"); // True
+      // Any: Check if any employee is named "Ahmed"
+      bool hasAhmed = employees.Any(e => e.Name == "Ahmed");
+      Console.WriteLine($"Has employee named 'Ahmed': {hasAhmed}"); // True
 
       // Contains: Check for a specific employee by name (using Any for clarity)
-      string nameToCheck = "Bob";
-      bool containsBob = employees.Any(e => e.Name == nameToCheck);
-      Console.WriteLine($"Contains employee 'Bob': {containsBob}"); // True
+      string nameToCheck = "Marwa";
+      bool containsMarwa = employees.Any(e => e.Name == nameToCheck);
+      Console.WriteLine($"Contains employee 'Marwa': {containsMarwa}"); // True
 
    }
 

@@ -51,7 +51,14 @@ internal class Program
       //_7_Quantifiers._Any.Ex04();
       //_7_Quantifiers._Any.Ex05();
       //_7_Quantifiers._Any.Ex06();
-      _7_Quantifiers._Any.Ex07();
+      //_7_Quantifiers._Any.Ex07();
+
+      //_8_GroupingData._GroupBy.Ex01();
+      //_8_GroupingData._GroupBy.Ex02();
+      //_8_GroupingData._GroupBy.Ex03();
+      //_8_GroupingData._GroupBy.Ex04();
+      //_8_GroupingData._GroupBy.Ex05();
+      //_8_GroupingData._GroupBy.Ex06();
 
    }  
 
