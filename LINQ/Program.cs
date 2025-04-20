@@ -94,6 +94,17 @@ internal class Program
       //_13_Concatenation._Concat.Ex05();
       //_13_Concatenation._Concat.Ex06();
 
+      //_14_AggregateOperations._Aggregate.Ex01();
+      //_14_AggregateOperations._Aggregate.Ex02();
+      //_14_AggregateOperations._Aggregate.Ex03();
+      //_14_AggregateOperations._Aggregate.Ex04();
+      //_14_AggregateOperations._Aggregate.Ex05();
+      //_14_AggregateOperations._Aggregate.Ex06();
+      //_14_AggregateOperations._Aggregate.Ex07();
+      //_14_AggregateOperations._Aggregate.Ex08();
+      //_14_AggregateOperations._Aggregate.Ex09();
+      //_14_AggregateOperations._Aggregate.Ex10();
+
    }  
 
 }
