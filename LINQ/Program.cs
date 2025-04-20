@@ -74,6 +74,14 @@ internal class Program
       //_10_GenerationOperations._Empty.Ex05();
       //_10_GenerationOperations._Empty.Ex06();
 
+      //_11_ElementOperations._ElementAt.Ex01();
+      //_11_ElementOperations._ElementAt.Ex02();
+      //_11_ElementOperations._ElementAt.Ex03();
+      //_11_ElementOperations._ElementAt.Ex04();
+      //_11_ElementOperations._ElementAt.Ex05();
+      //_11_ElementOperations._ElementAt.Ex06();
+      //_11_ElementOperations._ElementAt.Ex07();
+
    }  
 
 }
