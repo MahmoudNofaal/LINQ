@@ -65,7 +65,14 @@ internal class Program
       //_9_JoinOperations._Join.Ex03();
       //_9_JoinOperations._Join.Ex04();
       //_9_JoinOperations._Join.Ex05();
-      _9_JoinOperations._Join.Ex06();
+      //_9_JoinOperations._Join.Ex06();
+
+      //_10_GenerationOperations._Empty.Ex01();
+      //_10_GenerationOperations._Empty.Ex02();
+      //_10_GenerationOperations._Empty.Ex03();
+      //_10_GenerationOperations._Empty.Ex04();
+      //_10_GenerationOperations._Empty.Ex05();
+      //_10_GenerationOperations._Empty.Ex06();
 
    }  
 
