@@ -1,4 +1,6 @@
-﻿namespace LINQ;
+﻿using LINQ._17_ConvertingDataTypes.Shared;
+
+namespace LINQ;
 
 internal class Program
 {
@@ -111,7 +113,22 @@ internal class Program
       //_15_SetOperations._Distinct.Ex04();
       //_15_SetOperations._Distinct.Ex05();
 
-      _16_IEnumerableVsIQuerable._main.Ex01();
+      //_16_IEnumerableVsIQuerable._main.Ex01();
+
+      //_17_ConvertingDataTypes._AsEnumerable.Ex01();
+      //_17_ConvertingDataTypes._AsEnumerable.Ex02();
+      //_17_ConvertingDataTypes._AsEnumerable.Ex03();
+      //_17_ConvertingDataTypes._AsEnumerable.Ex04();
+      //_17_ConvertingDataTypes._AsEnumerable.Ex05();
+      //_17_ConvertingDataTypes._AsEnumerable.Ex06();
+      //_17_ConvertingDataTypes._AsEnumerable.Ex07();
+      //_17_ConvertingDataTypes._AsEnumerable.Ex08();
+      //_17_ConvertingDataTypes._AsEnumerable.Ex09();
+      //_17_ConvertingDataTypes._AsEnumerable.Ex10();
+      //_17_ConvertingDataTypes._AsEnumerable.Ex11();
+
+
+
 
    }  
 
