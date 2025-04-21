@@ -105,6 +105,13 @@ internal class Program
       //_14_AggregateOperations._Aggregate.Ex09();
       //_14_AggregateOperations._Aggregate.Ex10();
 
+      //_15_SetOperations._Distinct.Ex01();
+      //_15_SetOperations._Distinct.Ex02();
+      //_15_SetOperations._Distinct.Ex03();
+      //_15_SetOperations._Distinct.Ex04();
+      _15_SetOperations._Distinct.Ex05();
+
    }  
+
 
 }
