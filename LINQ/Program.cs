@@ -109,7 +109,9 @@ internal class Program
       //_15_SetOperations._Distinct.Ex02();
       //_15_SetOperations._Distinct.Ex03();
       //_15_SetOperations._Distinct.Ex04();
-      _15_SetOperations._Distinct.Ex05();
+      //_15_SetOperations._Distinct.Ex05();
+
+      _16_IEnumerableVsIQuerable._main.Ex01();
 
    }  
 
