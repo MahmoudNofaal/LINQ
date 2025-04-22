@@ -1,15 +1,20 @@
-﻿namespace LINQ._6_DataPartitioning;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LINQ._6_DataPartitioning;
 
 public class _Pagination
 {
-
    public static void Ex01()
    {
       var page = 1;
       var size = 10;
 
       Console.WriteLine("Result per page:");
-      if(int.TryParse(Console.ReadLine(), out int resultPerPage))
+      if (int.TryParse(Console.ReadLine(), out int resultPerPage))
       {
          size = resultPerPage;
       }
@@ -30,4 +35,3 @@ public class _Pagination
    }
 
 }
-

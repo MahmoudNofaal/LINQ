@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._15_SetOperations;
 
-public class _Distinct
+public class _Main
 {
 
    public static void Ex01()

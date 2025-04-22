@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._14_AggregateOperations;
 
-public class _Aggregate
+public class _Main
 {
 
    public static void Ex01()

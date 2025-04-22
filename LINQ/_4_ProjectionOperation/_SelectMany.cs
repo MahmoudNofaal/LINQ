@@ -1,8 +1,13 @@
-﻿namespace LINQ._4_ProjectionOperation;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LINQ._4_ProjectionOperation;
 
 public class _SelectMany
 {
-
    public static void Ex01()
    {
       var customers = new List<Customer>
@@ -54,8 +59,8 @@ public class _SelectMany
       var skills = employees.SelectMany(x => x.Skills).Distinct();
 
       var skillsQuery = (from e in employees
-                        from s in e.Skills
-                        select s).Distinct();
+                         from s in e.Skills
+                         select s).Distinct();
 
       Console.WriteLine("Skills (Method Syntax):");
       foreach (var s in skills)
@@ -74,15 +79,16 @@ public class _SelectMany
 }
 
 
-   class Customer
-   {
-      public string Name { get; set; }
-      public List<Order> Orders { get; set; }
-   }
+class Customer
+{
+   public string Name { get; set; }
+   public List<Order> Orders { get; set; }
+}
 
-   class Order
-   {
-      public int Id { get; set; }
-      public decimal Amount { get; set; }
-   }
+class Order
+{
+   public int Id { get; set; }
+   public decimal Amount { get; set; }
+}
+
 

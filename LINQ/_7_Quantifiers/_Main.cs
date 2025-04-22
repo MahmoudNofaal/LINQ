@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace LINQ._7_Quantifiers;
 
-public class _Any
+public class _Main
 {
 
    public static void Ex01()
    {
+      ///ANy, All, Contain
+
       var products = new List<Product>
       {
          new Product { Name = "Laptop", Price = 1000 },

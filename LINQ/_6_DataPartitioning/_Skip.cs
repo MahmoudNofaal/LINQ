@@ -8,10 +8,8 @@ namespace LINQ._6_DataPartitioning;
 
 public class _Skip
 {
-
    public static void Ex01()
    {
-
       var employees = Repository.LoadEmployees();
 
       var q1 = employees.Skip(20);
@@ -28,6 +26,7 @@ public class _Skip
 
       q1.Print("Still skip employees until found an employee his salary == 21440");
 
+
    }
 
    public static void Ex03()
@@ -41,4 +40,5 @@ public class _Skip
    }
 
 }
+
 

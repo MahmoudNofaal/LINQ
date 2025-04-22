@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._9_JoinOperations;
 
-public class _Join
+public class _Main
 {
 
    public static void Ex01()

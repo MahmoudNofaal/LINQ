@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._12_EqualityOperations;
 
-public class _SequenceEqual
+public class _Main
 {
 
    public static void Ex01()

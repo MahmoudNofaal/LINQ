@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._10_GenerationOperations;
 
-public class _Empty
+public class _Main
 {
 
    public static void Ex01()

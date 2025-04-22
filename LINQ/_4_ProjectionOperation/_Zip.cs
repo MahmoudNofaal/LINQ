@@ -1,16 +1,21 @@
-﻿namespace LINQ._4_ProjectionOperation;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LINQ._4_ProjectionOperation;
 
 public class _Zip
 {
-
    public static void Ex01()
    {
-      string[] colorName = { "Red", "Green", "Blue"};
-      string[] colorHEX = { "#FF0000", "#00FF00", "#0000FF"};
+      string[] colorName = { "Red", "Green", "Blue" };
+      string[] colorHEX = { "#FF0000", "#00FF00", "#0000FF" };
 
-      var colors = colorName.Zip(colorHEX, (name, hex)=> $"{name} ({hex})");
+      var colors = colorName.Zip(colorHEX, (name, hex) => $"{name} ({hex})");
 
-      foreach ( var color in colors )
+      foreach (var color in colors)
       {
          Console.WriteLine(color);
       }

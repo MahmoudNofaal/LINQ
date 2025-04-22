@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._1_PureVsImpureFunctions;
 
-public class _PureVsImpureFunctions
+public class _Main
 {
 
    public static void Ex01()
@@ -43,6 +43,7 @@ public class _PureVsImpureFunctions
 
    }
 
+
    static int counter = 0;
    public static void Ex02()
    {
@@ -78,9 +79,7 @@ public class _PureVsImpureFunctions
    {
       numbers.Add(num); //impure mutate global variable
    }
-
    static List<int> numbers = [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ];
-
    public static void Ex03()
    {
 
@@ -91,6 +90,7 @@ public class _PureVsImpureFunctions
       Print(numbers);
 
    }
+
 
    static void AddInteger02(ref int num)
    {
@@ -109,19 +109,20 @@ public class _PureVsImpureFunctions
 
    }
 
+
    static void AddInteger03()
    {
-      numbers.Add(new Random().Next()); //impure iteration with outside world
+      //impure iteration with outside world
+      numbers.Add(new Random().Next());
    }
    public static void Ex05()
    {
-
-
       Print(numbers);
 
       AddInteger03();
 
       Print(numbers);
+
    }
 
 

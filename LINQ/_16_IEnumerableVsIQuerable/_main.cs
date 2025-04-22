@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._16_IEnumerableVsIQuerable;
 
-public class _main
+public class _Main
 {
 
    public static void Ex01()

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._8_GroupingData;
 
-public class _GroupBy
+public class _Main
 {
 
    public static void Ex01()

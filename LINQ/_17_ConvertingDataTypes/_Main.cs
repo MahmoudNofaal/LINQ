@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._17_ConvertingDataTypes;
 
-public class _AsEnumerable
+public class _Main
 {
 
    public static void Ex01()

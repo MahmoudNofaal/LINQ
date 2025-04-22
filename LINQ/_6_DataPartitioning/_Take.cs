@@ -2,7 +2,7 @@
 
 public class _Take
 {
-
+   //chunk, pagination, skip, take
    public static void Ex01()
    {
 
@@ -33,6 +33,16 @@ public class _Take
       q1.Print("Take last 10 employees");
 
    }
+
+   ///
+   
+
+   ///
+
+
+   ///
+
+
 
 }
 

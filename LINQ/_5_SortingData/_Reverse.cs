@@ -1,13 +1,15 @@
-﻿using LINQ._4_ProjectionOperation;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace LINQ._5_SortingData;
 
 public class _Reverse
 {
-
    public static void Ex01()
    {
-
       var orders = new List<Order>
       {
          new Order { Id = 1, OrderDate = new DateTime(2025, 1, 1) },
@@ -38,13 +40,12 @@ public class _Reverse
 
    public static void Ex02()
    {
-
-     var customers = new List<Customer>
-     {
-         new Customer { Name = "Alice", PurchaseAmount = 500, IsActive = true },
-         new Customer { Name = "Bob", PurchaseAmount = 200, IsActive = true },
-         new Customer { Name = "Charlie", PurchaseAmount = 600, IsActive = false }
-     };
+      var customers = new List<Customer>
+      {
+         new Customer { Name = "Ahmed", PurchaseAmount = 500, IsActive = true },
+         new Customer { Name = "Marwa", PurchaseAmount = 200, IsActive = true },
+         new Customer { Name = "Omar", PurchaseAmount = 600, IsActive = false }
+      };
 
       // Where, Select, Reverse
       var reversedCustomerSummaries = customers.Where(c => c.IsActive)
@@ -70,6 +71,14 @@ public class _Reverse
 
    }
 
+}
+
+class Order
+{
+   public int Id { get; set; }
+   public DateTime OrderDate { get; set; }
+   public decimal Amount { get; set; }
+   public bool IsActive { get; set; }
 }
 
 class Customer

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LINQ._13_Concatenation;
 
-public class _Concat
+public class _Main
 {
 
    public static void Ex01()
