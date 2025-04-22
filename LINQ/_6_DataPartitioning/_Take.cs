@@ -2,7 +2,10 @@
 
 public class _Take
 {
-   //chunk, pagination, skip, take
+   /// [TAKE]
+   ///* It graps a certain number of items from the start
+   ///  you can get the first 10 items from a list.
+   
    public static void Ex01()
    {
 

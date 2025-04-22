@@ -10,6 +10,22 @@ namespace LINQ._11_ElementOperations;
 
 public class _Main
 {
+   /// [ELEMENT AT]
+   ///* It picks an item at a specific spot
+   ///  it useful when you know exactly wich position you need.
+   /// 
+   /// [FIRST]
+   ///* It gets the first item in a list, or the first matches a rule
+   ///  like the first product names 'shirt'
+   /// 
+   /// [LAST]
+   ///* It gets the last item, or the last matches a rule
+   ///  like most recent order
+   /// 
+   /// [SINGLE]
+   ///* It gets the one item that matches a rule, but throws an error if there
+   ///  is more than one or none.
+   ///  
 
    public static void Ex01()
    {

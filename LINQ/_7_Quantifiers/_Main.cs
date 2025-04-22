@@ -8,6 +8,17 @@ namespace LINQ._7_Quantifiers;
 
 public class _Main
 {
+   /// [ALL]
+   ///* It checks if every item in a list meet the rule
+   ///  you can check if all products are in a stock
+   ///  
+   /// [ANY]
+   ///* It checks if at least one item meers the rule
+   ///  you can use it to see if any product is on sale
+   ///  
+   /// [CONTAINS]
+   ///* It checks if a specific item is in the list.
+   ///  you can see if a certain user Id is in a list
 
    public static void Ex01()
    {

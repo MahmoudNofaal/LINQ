@@ -4,8 +4,21 @@ namespace LINQ;
 
 internal class Program
 {
+   public static void Ex00()
+   {
+      ///LINQ => [Language Integrated Query]
+      ///* It is a feature in C# and other .NET Languages,
+      ///  used for querying data from various sources like database and collections
+      ///* LINQ is unique to .NET
+      ///* And it avoids switching between different query languages like SQL.
+
+
+   }
+
    static void Main(string[] args)
    {
+
+      Ex00();
 
       //_1_PureVsImpureFunctions._Main.Ex01();
       //_1_PureVsImpureFunctions._Main.Ex02();

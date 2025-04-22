@@ -8,6 +8,13 @@ namespace LINQ._9_JoinOperations;
 
 public class _Main
 {
+   /// [JOIN]
+   ///* It matches items from two lists based on a shared value
+   ///  like linking customers to their orders using customerId
+   ///  
+   /// [GROUP JOIN]
+   /// * It matches items and groups them, even if some items donot have matches
+   ///   you can list all customers and their orders, including customers with no orders
 
    public static void Ex01()
    {

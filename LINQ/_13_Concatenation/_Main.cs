@@ -8,6 +8,8 @@ namespace LINQ._13_Concatenation;
 
 public class _Main
 {
+   /// [CONCAT]
+   /// * It Sticks two lists together into one.
 
    public static void Ex01()
    {

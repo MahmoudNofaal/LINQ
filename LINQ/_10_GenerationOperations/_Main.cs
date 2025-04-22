@@ -8,6 +8,17 @@ namespace LINQ._10_GenerationOperations;
 
 public class _Main
 {
+   /// [RANGE]
+   ///* It creates a list of numbers
+   ///  like from 1 to 10.
+   ///  
+   /// [REPEAT]
+   ///* It makes a list with the same value repeated
+   ///  you can create a list of 10 "zeros.
+   ///  
+   /// [EMPTY]
+   ///* It gives you an empty list
+   ///  when you need a list with noting in it, like a placeholder for data that might come later.
 
    public static void Ex01()
    {

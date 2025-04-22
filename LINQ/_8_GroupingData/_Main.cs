@@ -8,6 +8,16 @@ namespace LINQ._8_GroupingData;
 
 public class _Main
 {
+   /// [GROUP BY]
+   ///* It organizes your data into groups based on something they share
+   ///  you can group orders by customer to see what each person bought
+   ///  
+   /// [TO LOOKUP]
+   ///* It Like GroupBy, but makes a fast-access dictionary of groups
+   ///  if you need quickly find all student in a department, ToLookUp is perfect for.
+   ///  
+
+
 
    public static void Ex01()
    {

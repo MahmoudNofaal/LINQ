@@ -8,6 +8,8 @@ namespace LINQ._4_ProjectionOperation;
 
 public class _Zip
 {
+   /// [ZIP]
+
    public static void Ex01()
    {
       string[] colorName = { "Red", "Green", "Blue" };

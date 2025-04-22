@@ -10,6 +10,16 @@ namespace LINQ._17_ConvertingDataTypes;
 
 public class _Main
 {
+   /// [CAST]
+   ///* It Changes all items in a list to a specific type,
+   ///  like turning a list of objects into strings.
+   ///  It Is used when you know the data is a certain type but the system doesnOt.
+   /// 
+   /// [OF TYPE]
+   ///* It Picks only the items of a specific type from a mixed list.
+   ///  from a list of objects, you can get only the Product items.
+   ///  It is great for filtering out unwanted types.
+
 
    public static void Ex01()
    {

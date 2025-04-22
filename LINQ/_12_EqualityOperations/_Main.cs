@@ -8,6 +8,9 @@ namespace LINQ._12_EqualityOperations;
 
 public class _Main
 {
+   /// [SEQUENCE EQUAL]
+   /// * It Checks if two lists are exactly the same,
+   ///   with the same items in the same order.
 
    public static void Ex01()
    {

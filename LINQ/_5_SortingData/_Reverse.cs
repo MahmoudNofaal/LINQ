@@ -8,6 +8,9 @@ namespace LINQ._5_SortingData;
 
 public class _Reverse
 {
+   /// [REVERSE]
+   ///* It flips the order of your list
+
    public static void Ex01()
    {
       var orders = new List<Order>

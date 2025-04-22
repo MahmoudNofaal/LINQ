@@ -8,6 +8,11 @@ namespace LINQ._6_DataPartitioning;
 
 public class _Skip
 {
+   /// [SKIP]
+   ///* It skips over some items at the start of a list.
+   ///  If you are showing 10 items per page, Skip can jump past
+   ///  the fist 20 to show page 3.
+
    public static void Ex01()
    {
       var employees = Repository.LoadEmployees();

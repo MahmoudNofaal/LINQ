@@ -8,6 +8,10 @@ namespace LINQ._4_ProjectionOperation;
 
 public class _Select
 {
+   /// [SELECT]
+   ///* It picks out specific parts of your data or changes it into a new shape.
+   ///  like making a list of product prices from a product list.
+
 
    public static void Ex01()
    {

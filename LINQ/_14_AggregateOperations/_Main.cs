@@ -8,6 +8,21 @@ namespace LINQ._14_AggregateOperations;
 
 public class _Main
 {
+   /// [AGGREGATE]
+   ///* It Combines all items into one value,
+   ///  like adding up all prices in a list.
+   ///  
+   /// [MAX/by]
+   ///* It Finds the highest value,
+   ///  like the most expensive product.
+   ///  
+   /// [MIN/by]
+   ///* It Finds the lowest value,
+   ///  like the cheapest product.
+   ///  
+   /// [AVG]
+   ///* It Calculates the average of numbers,
+   ///  like the average rating of products
 
    public static void Ex01()
    {

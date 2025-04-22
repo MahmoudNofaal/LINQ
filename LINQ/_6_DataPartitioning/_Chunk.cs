@@ -8,6 +8,10 @@ namespace LINQ._6_DataPartitioning;
 
 public class _Chunk
 {
+   /// [CHUNCK]
+   ///* It breaks a big list into smaller groups
+   ///  If you have 100 items, Chunk can spilt them into groups of 10
+
    public static void Ex01()
    {
       var employees = Repository.LoadEmployees();

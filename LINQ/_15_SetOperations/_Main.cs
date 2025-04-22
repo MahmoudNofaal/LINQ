@@ -8,6 +8,24 @@ namespace LINQ._15_SetOperations;
 
 public class _Main
 {
+   /// [DISTINCT]
+   ///* It Removes duplicates from a list. If you have a list of user IDs
+   ///  with some repeated, Distinct gives you only the unique ones.
+   ///  
+   /// [EXCEPT]
+   ///* It Finds items in one list that aren’t in another. 
+   ///  you can use it to see which customers haven’t bought anything
+   ///  by comparing a list of all customers to those who made purchases.
+   ///  
+   /// [INTERSECT]
+   ///* It Finds items that are in both lists.
+   ///  If you have two lists of friends from different apps,
+   ///  Intersect shows who’s on both.
+   ///  
+   /// [UNION]
+   ///* It Combines two lists and removes duplicates.
+   ///  If you have lists of products from two stores, Union merges them
+   ///  into one list without repeating items.
 
    public static void Ex01()
    {

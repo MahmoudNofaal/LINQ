@@ -2,7 +2,9 @@
 
 public static class ExtensionFunctional01
 {
-   public static IEnumerable<Employee> Filter(IEnumerable<Employee> source, Func<Employee, bool> predicate) //  Func<Employee, bool> predicate =  Predicate<Employee> predicate 
+   public static IEnumerable<Employee> Filter(IEnumerable<Employee> source,
+                                              Func<Employee, bool> predicate)
+      //  Func<Employee, bool> predicate =  Predicate<Employee> predicate 
    {
       foreach (var employee in source)
       {

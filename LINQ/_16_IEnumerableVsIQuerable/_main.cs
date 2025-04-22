@@ -10,6 +10,19 @@ namespace LINQ._16_IEnumerableVsIQuerable;
 
 public class _Main
 {
+   /// [iENUMERABLE]
+   ///* It Works with data already in memory,
+   ///  like a list of objects in your program.
+   ///  It processes everything right away, so it’s best for small,
+   ///  local data, like filtering a list of names.
+   ///  
+   /// [iQUERABLE]
+   ///* It Works with data from outside, like a database.
+   ///  It builds a query that runs on the database,
+   ///  saving time and memory by only fetching what is needed.
+   ///  It is best for large data or database queries,
+   ///  like searching for customers in a database.
+
 
    public static void Ex01()
    {

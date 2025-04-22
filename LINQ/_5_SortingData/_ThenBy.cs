@@ -8,6 +8,10 @@ namespace LINQ._5_SortingData;
 
 public class _ThenBy
 {
+   /// [THEN BY]
+   ///* It adds a second sort after order by
+   ///  you can sort employees by department first, then by name within each department
+
    public static void Ex01()
    {
       var employees = Repository.LoadEmployees();

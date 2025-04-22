@@ -8,6 +8,12 @@ namespace LINQ._4_ProjectionOperation;
 
 public class _SelectMany
 {
+   /// [SELECT MANY]
+   ///* It takes lists inside a list and flattens them into on big list
+   ///
+   ///* It is great for combining nested data,
+   ///  like getting all items from multiple shopping carts.
+
    public static void Ex01()
    {
       var customers = new List<Customer>

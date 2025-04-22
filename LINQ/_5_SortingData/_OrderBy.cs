@@ -8,7 +8,10 @@ namespace LINQ._5_SortingData;
 
 public class _OrderBy
 {
-   ///orderby, reverse, thenby
+   /// [ORDER BY]
+   ///* It sorts your list in order
+   ///  you can sort products by prices (Ascending, Descending)
+
    public static void Ex01()
    {
       string[] fruits = { "grape", "orange", "strawberrry", "mango", "apple", "banana" };
