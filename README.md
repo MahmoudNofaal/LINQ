@@ -2,27 +2,6 @@
 
 Welcome to the **LINQ Repository**! This project provides a comprehensive set of examples demonstrating the usage of LINQ (Language Integrated Query) methods in C#. Each example showcases a specific LINQ method, explaining what it does, why it's useful, and a practical use case. The repository is designed to help developers understand and apply LINQ effectively in their .NET projects.
 
-🔗 **Repository Link**: [https://github.com/MahmoudNofaal/LINQ.git](https://github.com/MahmoudNofaal/LINQ.git)
-
-## Table of Contents
-1. [Introduction](#introduction)
-2. [LINQ Methods Covered](#linq-methods-covered)
-   - [Projection and Transformation](#projection-and-transformation)
-   - [Set Operations](#set-operations)
-   - [Ordering](#ordering)
-   - [Paging and Skipping](#paging-and-skipping)
-   - [Quantifiers](#quantifiers)
-   - [Grouping and Joining](#grouping-and-joining)
-   - [Generation](#generation)
-   - [Element Operations](#element-operations)
-   - [Equality and Concatenation](#equality-and-concatenation)
-   - [Aggregation](#aggregation)
-   - [Type Casting](#type-casting)
-   - [IEnumerable vs. IQueryable](#ienumerable-vs-iqueryable)
-3. [How to Use This Repository](#how-to-use-this-repository)
-4. [Contributing](#contributing)
-5. [License](#license)
-
 ## Introduction
 LINQ is a powerful feature in .NET that allows developers to query and manipulate data from various sources (collections, databases, XML) using a unified syntax in C#. Introduced in .NET 3.5, LINQ simplifies data handling by providing a consistent way to filter, sort, group, and transform data. This repository contains practical C# examples for each LINQ method, making it easier to understand their functionality and apply them in real-world scenarios.
 
