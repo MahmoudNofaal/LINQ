@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{FF1B5875-A85A-44AC-9734-2847A71B4E0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Questions", "Questions\Questions.csproj", "{DFA8FEDA-8047-4FA1-AC5D-0E486D6BB021}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FF1B5875-A85A-44AC-9734-2847A71B4E0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF1B5875-A85A-44AC-9734-2847A71B4E0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF1B5875-A85A-44AC-9734-2847A71B4E0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA8FEDA-8047-4FA1-AC5D-0E486D6BB021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA8FEDA-8047-4FA1-AC5D-0E486D6BB021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA8FEDA-8047-4FA1-AC5D-0E486D6BB021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA8FEDA-8047-4FA1-AC5D-0E486D6BB021}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
